@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+
+.holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    font-size: xx-large;
+}
+
+/* .box1{
+    order: 1;
+    background-color: red;
+}
+
+.box2{
+    order: 2;
+    background-color: blue;
+} */
